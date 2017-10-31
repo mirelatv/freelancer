@@ -1,80 +1,51 @@
-# Freelancer
+ ## FRELANCER
+ # Estructura del Body
+1- Header
+   * Lista Desordenada ul-li en etiqueta Nav
+2- Section Primera
+    * Div  contenedor de  imagen \
+    <img src="assets/images/profile.png" alt="Image man"></div>
+    * Span  DE SECCION >start bootstrap
+    * Div contendor de  Icono >i class="fa fa-star" >
+    * Span texto  de seccionS
+  3- Section segunda
+      * Span "title2">Portfolio
+      * Div contenedora  de icono="line black"><i class="fa fa-star"
+      * Div "contanedora de fotos
+        -div class="imageportfolio "><img src="assets/images/portfolio/cabin.png" alt=""></div>
+        -div class="imageportfolio "><img src="assets/images/portfolio/cake.png" alt=""></div>
+        -div class="imageportfolio "><img src="assets/images/portfolio/circus.png" alt=""></div>
+        -div class="imageportfolio"><img src="assets/images/portfolio/game.png" alt=""></div>
+        -div class="imageportfolio"><img src="assets/images/portfolio/safe.png" alt=""></div>
+        -div class="imageportfolio"><img src="assets/images/portfolio/submarine.png" alt=""></div>
+  4- Section tercera
+      * Span Titulo3
+        Div Contendor de icono <i class="fa fa-star" aria-hidden="true"></i></div>
+        Div contendor de texto <span Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</span>
+      *  Div span >Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</span>
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
-
-***
-
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
-
-## Flujo de trabajo
-
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
-
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
-
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/freelancer.git
-   ```
-
-## Objetivo
-
-El reto consiste en replicar el sitio de **Freelancer**, este será el resultado
-a lograr:
-
-![Freelancer Website](docs/fullpage.png)
-
-## Consideraciones
-
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
-
-* En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto.
-
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes necesarias para completar tu proyecto.
-
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
-
-* Esta web utiliza 2 tipografías: `Montserrat` y `Lato`.
-
-* La paleta de colores puedes obtenerla inspeccionado el sitio original, pero
-  para ganar tiempo, puedes usar los siguientes: `#2c3e50`, `#18bc9c`,
-  `#212529`.
-
-* Los íconos de redes sociales puedes obtenerlos de [Font Awesome](http://fontawesome.io/).
-
-* Para este reto, encontrarás ciertas cosas que probablemente aun no has visto
-  en clase (formularios). No te preocupes, estamos seguros que lo afrontarás con
-  éxito, de igual forma aquí unos tips:
-
-  - Para el formulario, revisa las etiquetas como `form`, `input`, `button`.
-
-* El subrayado que incluye la estrella en las diversas secciones del sitio, en
-  la web original se hace con un ícono y pseudoelementos (`:after`, `:before`),
-  es un reto entretenido, sin embargo, no trates de enfocarte en esa parte desde
-  un inicio ya que no es el objetivo principal del reto :)
-
-* Puedes ver el [sitio original](https://blackrockdigital.github.io/startbootstrap-freelancer/)
-  para que te des una idea de como debe quedar.
-
-  > Nota: El sitio original tiene ciertos efectos y funcionalidades que
-están fuera del alcance de este reto. Enfócate en obtener la maquetación
-lo más parecido posible, usando lo aprendido en clase ;)
-
-## A tener en cuenta
-
-Este reto será evaluado sobre lo siguiente:
-
-* Pixel perfect (replicar el diseño con exactitud)
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible
+      * Button >a href -Donwload theme
+        i> class="fa fa-download"
+     5- Section cuarta
+      * span -upercase contacme">Contact Me</span>
+         <forTitulo de Seccion >
+      * Lista  desordenada con Imput en Formulario
+            - <li class="information"><input type="text" name="Name" placeholder="Name"></li>
+            -  <li class="information"><input type="text" name="Email Adress" placeholder="Email Adress"></li>
+            -  <li class="information"><input type="text" name="Phone Number" placeholder="Phone Number"></li>
+            - <li class="information"><input type="text" name="Mesage" placeholder="Mesagge"></li>
+            - Send">Send</button>
+       6- footer Ultima seccion
+        * Div ="contanerlast" bLOCK1
+          - div class="block1"
+          - H3 class="LOCATION
+          - Parrafo>3481 Melrose Place
+          Beverly Hills, CA 90210</p>
+        * Div class="block2"
+          - h3 AROUND THE WEB
+          - Lista  desordenada -Iconos Sociales
+        * Div Contenedor 3 :
+          - H3>about freelancer
+          - Parrafo >Freelance is a free to use, open source Bootstrap theme created by " este parrafo contiene un a para linkear  palabras claves"<a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+         * Div> EXTERNO
+        <span class="autor">Copyright Â© Your Website 2017</span>
